@@ -11,7 +11,7 @@ export default function HomePage() {
       <header className="border-b border-gray-100 sticky top-0 bg-white/95 backdrop-blur-sm z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <Image src="/logo.jpg" alt="Minervy Logo" width={70} height={70} className="rounded-full" />
+            <Image src="/logo.jpg" alt="Minervy Logo" width={50} height={50} className="rounded-full" />
             <span className="text-2xl font-bold text-gray-900">Minervy</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
@@ -135,8 +135,8 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
-              <div className="bg-white p-1 rounded-full">
-                <Image src="/logo.jpg" alt="Minervy Logo" width={40} height={40} className="rounded-full" />
+              <div className="bg-white p-2 rounded-full w-12 h-12 flex items-center justify-center">
+                <Image src="/logo.jpg" alt="Minervy Logo" width={32} height={32} className="rounded-full" />
               </div>
               <span className="text-xl font-bold">Minervy</span>
             </div>
